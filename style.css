@@ -1,0 +1,24 @@
+.game-box {
+  border: black solid 1px;
+  text-align: center;
+  padding: 50%;
+  font-size: 30px;
+}
+
+.game-box:hover {
+  border: black solid 4px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+
+button:hover {
+  transition: 0.15s;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+#middle {
+  margin: 0 -2.6% 0 -2.6%;
+}

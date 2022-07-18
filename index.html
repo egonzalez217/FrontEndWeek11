@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 11 Assignment</title>
+
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Week 11</a>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="col">
+        <div class="col-body">
+          <div class="row">
+            <div class="col-sm">
+          <button id="restart" class="btn btn-secondary form-control" onclick="reset()">Reset Game</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <br/>
+        <h2 id="status"></h2>
+        <br />
+        <div class="row">
+            <div class="col-4" id="left">
+                <div class="game-box" id="0" onclick="ticTacToe(0)"></div>
+                <div class="game-box" id="3" onclick="ticTacToe(3)"></div>
+                <div class="game-box" id="6" onclick="ticTacToe(6)"></div>
+            </div>
+            <div class="col-4" id="middle">
+                <div class="game-box" id="1" onclick="ticTacToe(1)"></div>
+                <div class="game-box" id="4" onclick="ticTacToe(4)"></div>
+                <div class="game-box" id="7" onclick="ticTacToe(7)"></div>
+            </div>
+            <div class="col-4" id="right">
+                <div class="game-box" id="2" onclick="ticTacToe(2)"></div>
+                <div class="game-box" id="5" onclick="ticTacToe(5)"></div>
+                <div class="game-box" id="8" onclick="ticTacToe(8)"></div>
+            </div>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>

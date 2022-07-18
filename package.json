@@ -1,0 +1,23 @@
+{
+  "name": "frontendweek11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egonzalez217/FrontEndWeek11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egonzalez217/FrontEndWeek11/issues"
+  },
+  "homepage": "https://github.com/egonzalez217/FrontEndWeek11#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.6.0"
+  }
+}
